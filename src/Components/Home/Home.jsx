@@ -18,7 +18,7 @@ const Home = () => {
     // console.log(storedData)
 
     const handleSelected = (actor) => {
-        // console.log('clicked selected buttons', actor)
+        console.log('clicked selected buttons', actor)
         const selectActor = [...actors, actor];
         setActors(selectActor);
     }
@@ -41,7 +41,7 @@ const Home = () => {
                 </div>
 
                 <div className="w-1/3">
-                    <Cart></Cart>
+                    <Cart actors={actors} ></Cart>
                 </div>
             </div>
         </div>

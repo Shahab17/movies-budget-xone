@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 
-const Actor = ({ actorData, handleSelected }) => {
+const Actor = ({ actorData, handleSelected  }) => {
     const { name, image, role, salary } = actorData;
 
     return (
@@ -17,7 +17,7 @@ const Actor = ({ actorData, handleSelected }) => {
                     <h3 className="text-lg">Salary: <span className='font-medium'>${salary}</span> </h3>
                 </div>
                 <div className='text-center'>
-                    <button onClick={() => handleSelected()} className='btn px-3 py-2 rounded-md bg-gradient-to-r from-cyan-100 to-blue-700'>Select</button>
+                    <button onClick={() => handleSelected(actorData)} className='btn px-3 py-2 rounded-md bg-gradient-to-r from-cyan-100 to-blue-700'>Select</button>
                 </div>
             </div>
         </div>
@@ -27,6 +27,7 @@ const Actor = ({ actorData, handleSelected }) => {
 Actor.propTypes = {
     actorData: PropTypes.object,
     handleSelected: PropTypes.func,
+   
 }
 
 export default Actor;
