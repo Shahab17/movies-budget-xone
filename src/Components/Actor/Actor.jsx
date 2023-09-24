@@ -13,7 +13,7 @@ const Actor = ({ actorData, handleSelected  }) => {
                 <h3 className="text-xl text-center font-semibold"> {name} </h3>
 
                 <div className='flex justify-between '>
-                    <h3 className="text-lg">Role: <span className='font-medium'>{role}</span> </h3>
+                    <h3 className="text-lg"> <span className='font-medium'>{role}</span> </h3>
                     <h3 className="text-lg">Salary: <span className='font-medium'>${salary}</span> </h3>
                 </div>
                 <div className='text-center'>
