@@ -4,7 +4,7 @@ const Cart = ({ actors, remaining, totalCost }) => {
     // const { name } = actors;
     return (
         <div>
-            <h2 className="text-2xl  ">Total Actors: {actors.length}  </h2>
+            <h2 className="text-lg font-mono md:text-2xl  ">Total Actors: {actors.length}  </h2>
             <h4 className="text-xl">Remaining: ${remaining} </h4>
             <div className='mt-10 border-y-2  py-4 '>
                 {

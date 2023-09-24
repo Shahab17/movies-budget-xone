@@ -2,8 +2,8 @@
 
 const Header = () => {
     return (
-        <div>
-              <h1 className='text-3xl text-center'>Movies Budget</h1>
+        <div className="my-12">
+              <h1 className='text-xl md:text-3xl text-center font-mono font-semibold'>Bollywood Movies Budget</h1>
         </div>
     );
 };

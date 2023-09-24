@@ -46,10 +46,10 @@ const Home = () => {
     }
 
     return (
-        <div className="container px-5 mx-auto">
+        <div className="container px-5 mx-auto ">
             <div className="  md:flex  gap-5 my-10">
                 <div className="md:w-2/3 ">
-                    <h2 className="text-2xl">Home Area</h2>
+                    <h2 className="text-lg md:text-2xl font-mono font-medium">Choose Your Demand</h2>
                     <div className='grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10  ' >
                         {
                             storedData.map(actorInfo => <Actor

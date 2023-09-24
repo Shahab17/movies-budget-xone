@@ -17,7 +17,7 @@ const Actor = ({ actorData, handleSelected  }) => {
                     <h3 className="text-lg">Salary: <span className='font-medium'>${salary}</span> </h3>
                 </div>
                 <div className='text-center'>
-                    <button onClick={() => handleSelected(actorData)} className='btn px-3 py-2 rounded-md bg-gradient-to-r from-cyan-100 to-blue-700'>Select</button>
+                    <button onClick={() => handleSelected(actorData)} className='btn px-3 py-2 text-lg font-medium rounded-md bg-gradient-to-r from-cyan-100 to-blue-700'>Select</button>
                 </div>
             </div>
         </div>
